@@ -29,7 +29,7 @@ EOT;
 $page_script= <<<EOT
 $(document).ready(function(){
 //Open a WS server connection
-var wsUri = "ws://dvws.local:8080/authenticate-user-prepared";
+var wsUri = "ws://dvws.local:8081/authenticate-user-prepared";
 websocket = new WebSocket(wsUri);
 
 //Connected to WS server
